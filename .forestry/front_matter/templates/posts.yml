@@ -1,0 +1,116 @@
+---
+pages:
+- _posts/2017-01-07-chocolate-cupcakes.md
+- _posts/2017-01-06-lemon-cake.md
+- _posts/2017-01-05-gingernut-cookies.md
+hide_body: false
+fields:
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default: ''
+- name: featured_image
+  label: Featured image
+  type: text
+  hidden: false
+  default: ''
+- name: recipe
+  label: Recipe
+  type: field_group
+  fields:
+  - name: servings
+    label: Servings
+    type: text
+    hidden: false
+    default: ''
+  - name: prep
+    label: Prep
+    type: text
+    hidden: false
+    default: ''
+  - name: cook
+    label: Cook
+    type: text
+    hidden: false
+    default: ''
+  - name: ingredients_markdown
+    label: Ingredients markdown
+    type: textarea
+    hidden: false
+    default: ''
+  - name: directions_markdown
+    label: Directions markdown
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: post
+- name: push_sidebar_down
+  label: Push sidebar down
+  type: boolean
+  hidden: false
+  default: true
+- name: print_stylesheet
+  label: Print stylesheet
+  type: boolean
+  hidden: false
+  default: true
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: true
+- name: _options
+  label: " options"
+  type: field_group
+  fields:
+  - name: content
+    label: Content
+    type: field_group
+    fields:
+    - name: width
+      label: Width
+      type: text
+      hidden: false
+      default: ''
+    - name: height
+      label: Height
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  - name: featured_image
+    label: Featured image
+    type: field_group
+    fields:
+    - name: width
+      label: Width
+      type: text
+      hidden: false
+      default: ''
+    - name: height
+      label: Height
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
