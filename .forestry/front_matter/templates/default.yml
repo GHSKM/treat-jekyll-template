@@ -1,4 +1,6 @@
 ---
+pages:
+- tes.md
 hide_body: false
 fields:
 - name: layout
