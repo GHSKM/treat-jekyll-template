@@ -4,7 +4,7 @@
 - name: Home
   link: "/"
 - name: About
-  link: "/about/"
+  link: "~/about/"
 - name: Recipes
   link: "/recipes/"
 - name: Contact
