@@ -1,6 +1,6 @@
 ---
-date: 2017-01-07 00:00:00 +0000
 title: Chocolate Cupcakes
+date: 2017-01-07 00:00:00 Z
 categories:
 - Cupcakes
 - Cakes
@@ -57,6 +57,7 @@ _options:
     width: ''
     height: ''
 ---
+
 These chocolate chocolate cupcakes have a stunning appearance and a rich, chocolatey sweetness. I've found at parties people prefer bite sized deserts so I'd recommend making 24 mini cupcakes rather than 12 large. That way you won't find half eaten cupcakes at your party!
 
 ![Cupcakes](https://images.unsplash.com/photo-1448131063153-f1e240f98a72?w=1560&h=940&fit=crop)
